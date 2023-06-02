@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Trispace&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encriptador de texto</title>
+    <link rel="icon" href="img/flag-py.png">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/Logo1x.png" alt="Logo Alura"></a>
+        </div>
+
+        <div class="encriptador-titulo">
+            <p>Encriptador</p>
+            <div class="cont-by">
+                <p>by Blás Ramirez</p>
+            </div>
+        </div>
+
+        <div class="redes-sociales">
+            <a href="https://github.com/BlasRamirezDev" class="redes" target="_blank"><img src="img/logo-github.svg"
+                    alt="Logo GitHub"></a>
+            <a href="https://www.linkedin.com/in/blas-ramirez" class="redes" target="_blank"><img
+                    src="img/logo-linkedin.svg" alt="Logo Linkedin"></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-texto">
+            <div class="cont-texto">
+                <textarea class="texto" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="img/alert-circle.svg" alt="alerta">
+                <p>Sólo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="cont-botones">
+                <button class="btn" id="btn-encriptar">Encriptar</button>
+                <button class="btn" id="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="section-resultado">
+            <textarea class="texto-resultado" readonly></textarea>
+        </section>
+    </main>
+
+    <footer>
+        <p>Diseñado por Blás Ramirez</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
